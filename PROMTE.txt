@@ -1,0 +1,240 @@
+Act as a senior UI/UX designer and full-stack web developer.
+
+Create a premium personal portfolio website in Arabic (RTL) for a software developer named:
+
+Abdelmajid Makhloufi
+
+The website must present him as an experienced Software Developer and Database Specialist with strong expertise in Delphi, SQL Server, and MySQL, while also showcasing modern skills in Python, AI, and Web Development.
+
+====================================
+GENERAL REQUIREMENTS
+====================================
+
+- Language: Arabic (RTL)
+- Modern professional design
+- Elegant and clean interface
+- Responsive for desktop, tablet, and mobile
+- Fast loading
+- Smooth animations
+- Glassmorphism effects
+- Professional typography
+- Dark Mode / Light Mode toggle
+- Bootstrap 5
+- Font Awesome icons
+- SEO-friendly structure
+
+Color palette:
+- Algerian green (#0F7B0F)
+- White
+- Light gray
+- Small touches of red
+
+====================================
+HERO SECTION
+====================================
+
+Large professional landing section containing:
+
+Name:
+عبد المجيد مخلوفي
+
+Professional Title:
+مطور برمجيات ومتخصص قواعد بيانات
+
+Subtitle:
+خبير في Delphi و SQL Server و MySQL مع اهتمام متقدم بتطوير الويب والذكاء الاصطناعي.
+
+CTA Buttons:
+- عرض المشاريع
+- تواصل معي
+
+Animated background and professional developer illustration.
+
+====================================
+ABOUT SECTION
+====================================
+
+Title:
+من أنا
+
+Content:
+
+أنا مطور برمجيات شغوف بالتكنولوجيا والحلول الرقمية، أمتلك خبرة عملية في تطوير تطبيقات سطح المكتب وقواعد البيانات باستخدام Delphi وMicrosoft SQL Server وMySQL.
+
+أهتم بتصميم الأنظمة المعلوماتية وإدارة قواعد البيانات وتطوير الحلول البرمجية التي تساعد المؤسسات على تحسين الكفاءة والإنتاجية.
+
+كما أعمل على تطوير مهاراتي في Python وFastAPI وتقنيات الويب الحديثة والذكاء الاصطناعي والأتمتة.
+
+أسعى دائماً إلى تحويل الأفكار إلى تطبيقات عملية سهلة الاستخدام وذات قيمة حقيقية.
+
+====================================
+SKILLS SECTION
+====================================
+
+Display skills as beautiful animated cards.
+
+Programming Languages:
+- Delphi
+- Python
+- JavaScript
+- SQL
+
+Databases:
+- Microsoft SQL Server
+- MySQL
+- MariaDB
+- SQLite
+
+Web Development:
+- HTML5
+- CSS3
+- Bootstrap 5
+- FastAPI
+
+Tools:
+- Docker
+- Git
+- GitHub
+- OCR
+- REST API
+- VS Code
+- OpenCode
+- AI Tools
+
+Development Environments:
+- Delphi 7
+- Delphi XE3
+- RAD Studio 11
+- RAD Studio 12
+
+====================================
+PROJECTS SECTION
+====================================
+
+Create project cards with image placeholders.
+
+Project 1:
+منصة استخراج البيانات بالـ OCR
+رفع ملفات وصور واستخراج البيانات تلقائياً.
+
+Project 2:
+دليل الأطباء
+منصة للبحث عن الأطباء حسب التخصص والمنطقة.
+
+Project 3:
+تطبيق القرآن الكريم
+تطبيق ويب حديث للاستماع وقراءة القرآن الكريم.
+
+Project 4:
+أنظمة قواعد البيانات
+تطبيقات مكتبية وقواعد بيانات باستخدام Delphi وSQL Server.
+
+Project 5:
+مواقع ويب حديثة
+تصميم وتطوير مواقع احترافية متجاوبة.
+
+====================================
+EXPERIENCE SECTION
+====================================
+
+Timeline style.
+
+Focus on:
+
+- Delphi Desktop Applications
+- Database Design
+- SQL Server Administration
+- MySQL Development
+- Python Development
+- AI and Automation
+
+====================================
+SERVICES SECTION
+====================================
+
+Cards:
+
+- تطوير تطبيقات Delphi
+- تصميم قواعد البيانات
+- تطوير SQL Server
+- تطوير MySQL
+- تطوير تطبيقات Python
+- تطوير مواقع ويب
+- أتمتة المهام
+- دمج الذكاء الاصطناعي
+
+====================================
+STATISTICS SECTION
+====================================
+
+Animated counters.
+
+Examples:
+
+سنوات التعلم والخبرة
+المشاريع المنجزة
+التقنيات المستخدمة
+قواعد البيانات المطورة
+
+====================================
+CERTIFICATES SECTION
+====================================
+
+Professional certificate gallery with placeholders.
+
+====================================
+CONTACT SECTION
+====================================
+
+Professional contact form:
+
+- الاسم
+- البريد الإلكتروني
+- الموضوع
+- الرسالة
+
+Social icons:
+
+- GitHub
+- LinkedIn
+- Facebook
+- Email
+
+====================================
+FOOTER
+====================================
+
+Professional footer with:
+
+© Abdelmajid Makhloufi
+
+Software Developer | Database Specialist
+
+====================================
+TECHNICAL REQUIREMENTS
+====================================
+
+Generate complete production-ready code:
+
+1. index.html
+2. style.css
+3. script.js
+
+Code must be:
+- Clean
+- Organized
+- Commented
+- Professional
+- Ready to run directly
+
+Use modern animations and professional portfolio design comparable to premium developer portfolios.
+////////////////////////////
+IMPORTANT:
+
+- All visible text must be in Arabic.
+- Use RTL direction across the entire website.
+- Set html lang="ar".
+- Set dir="rtl" on the body.
+- Use Arabic fonts such as Cairo, Tajawal, or Noto Kufi Arabic.
+- Do not generate English headings or English menu items.
+- Navigation menu, buttons, cards, forms, and footer must be fully Arabic.

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="عبد المجيد مخلوفي — مطور برمجيات ومتخصص قواعد بيانات. خبير في Delphi و SQL Server و MySQL مع اهتمام متقدم بتطوير الويب والذكاء الاصطناعي.">
+  <meta name="keywords" content="عبد المجيد مخلوفي, مطور برمجيات, قواعد بيانات, Delphi, SQL Server, MySQL, Python, FastAPI, الذكاء الاصطناعي">
+  <meta name="author" content="Abdelmajid Makhloufi">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="عبد المجيد مخلوفي | مطور برمجيات ومتخصص قواعد بيانات">
+  <meta property="og:description" content="خبير في Delphi و SQL Server و MySQL مع اهتمام متقدم بتطوير الويب والذكاء الاصطناعي.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_DZ">
+  <meta name="theme-color" content="#0F172A">
+  <title>عبد المجيد مخلوفي | مطور برمجيات ومتخصص قواعد بيانات</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='12' width='64' height='64' fill='%233B82F6'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='32' fill='white' font-family='Cairo,sans-serif' font-weight='bold'%3E%D8%B9%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link id="bootstrapCss" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- شاشة ترحيب سريعة (تختفي تلقائياً بـ CSS) -->
+  <div class="intro" id="intro" aria-hidden="true"><div class="intro-mark">ع</div></div>
+  <!-- شريط التنقل -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <img src="majid.jpg" class="brand-photo" alt="مخلوفي عبد المجيد" fetchpriority="high" onerror="this.style.display='none';document.getElementById('brandFallback').style.display='grid';">
+        <span class="brand-mark" id="brandFallback" style="display:none">ع</span>
+        <span class="brand-text">
+          <span class="brand-family" data-i18n="brand.family">مخلوفي</span>
+          <span class="brand-given" data-i18n="brand.given">عبد المجيد</span>
+        </span>
+      </a>
+      <div class="nav-actions d-flex align-items-center gap-2">
+        <div class="dropdown">
+          <button class="lang-switch dropdown-toggle" id="langToggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Language / اللغة / Langue">
+            <i class="fa-solid fa-globe"></i>
+            <span id="langLabel">AR</span>
+          </button>
+          <ul class="dropdown-menu" id="langMenu" aria-labelledby="langToggle">
+            <li><button class="dropdown-item" type="button" data-lang="ar">العربية</button></li>
+            <li><button class="dropdown-item" type="button" data-lang="en">English</button></li>
+            <li><button class="dropdown-item" type="button" data-lang="fr">Français</button></li>
+          </ul>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="تبديل المظهر">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="القائمة">
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#hero" data-i18n="nav.home">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">من أنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills" data-i18n="nav.skills">المهارات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav.projects">المشاريع</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience" data-i18n="nav.experience">الخبرة</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav.services">الخدمات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates" data-i18n="nav.certificates">الشهادات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">تواصل</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- القسم الرئيسي -->
+  <header class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <canvas id="heroCanvas"></canvas>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container position-relative">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <p class="hero-kicker reveal" data-i18n="hero.kicker">مرحباً بك في معرض أعمالي</p>
+          <h1 class="hero-name reveal"><span class="grad" data-i18n="hero.name">عبد المجيد مخلوفي</span></h1>
+          <h2 class="hero-title reveal" data-i18n="hero.title">مطور برمجيات ومتخصص قواعد بيانات</h2>
+          <p class="hero-sub reveal" data-i18n="hero.sub">خبير في Delphi و SQL Server و MySQL مع اهتمام متقدم بتطوير الويب والذكاء الاصطناعي.</p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-primary-custom">
+              <i class="fa-solid fa-briefcase"></i>
+              <span data-i18n="hero.cta1">عرض المشاريع</span>
+            </a>
+            <a href="#contact" class="btn btn-outline-custom">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span data-i18n="hero.cta2">تواصل معي</span>
+            </a>
+          </div>
+          <div class="hero-meta reveal">
+            <div class="meta-item">
+              <i class="fa-solid fa-database"></i>
+              <span data-i18n="hero.m1">قواعد بيانات احترافية</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-code"></i>
+              <span data-i18n="hero.m2">تطبيقات سطح المكتب</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-robot"></i>
+              <span data-i18n="hero.m3">ذكاء اصطناعي</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-art reveal">
+            <div class="glass-card art-card">
+              <svg class="dev-illustration" viewBox="0 0 420 420" role="img" aria-label="Developer illustration">
+                <defs>
+                  <linearGradient id="screenGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#2563EB"/>
+                    <stop offset="100%" stop-color="#93C5FD"/>
+                  </linearGradient>
+                  <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#2A3A55"/>
+                    <stop offset="100%" stop-color="#0F172A"/>
+                  </linearGradient>
+                </defs>
+                <circle cx="210" cy="210" r="180" fill="none" stroke="url(#screenGrad)" stroke-width="2" opacity="0.35"/>
+                <circle cx="210" cy="210" r="150" fill="none" stroke="url(#screenGrad)" stroke-width="1" opacity="0.2"/>
+                <rect x="70" y="90" width="280" height="190" rx="16" fill="url(#bodyGrad)" stroke="#3B82F6" stroke-opacity="0.35"/>
+                <rect x="85" y="105" width="250" height="145" rx="8" fill="#0F172A" stroke="#3B82F6" stroke-opacity="0.3"/>
+                <text x="100" y="135" fill="#93C5FD" font-size="12" font-family="monospace">SELECT * FROM skills;</text>
+                <text x="100" y="155" fill="#8f96a8" font-size="12" font-family="monospace">WHERE expert = 1;</text>
+                <text x="100" y="175" fill="#BFDBFE" font-size="12" font-family="monospace">-- Delphi | SQL | Python</text>
+                <text x="100" y="195" fill="#93C5FD" font-size="12" font-family="monospace">CREATE INDEX ix_ai;</text>
+                <text x="100" y="215" fill="#8f96a8" font-size="12" font-family="monospace">COMMIT;</text>
+                <rect x="85" y="255" width="60" height="8" rx="4" fill="#3B82F6"/>
+                <rect x="155" y="255" width="90" height="8" rx="4" fill="#2A3345"/>
+                <rect x="155" y="300" width="110" height="14" rx="3" fill="#1a2130"/>
+                <rect x="120" y="314" width="180" height="8" rx="2" fill="#232b3d"/>
+                <circle cx="330" cy="80" r="18" fill="#3B82F6" opacity="0.9"/>
+                <circle cx="88" cy="78" r="10" fill="#2563EB"/>
+                <rect x="300" y="310" width="70" height="42" rx="8" fill="#3B82F6" opacity="0.95"/>
+                <text x="335" y="336" text-anchor="middle" fill="#fff" font-size="11" font-family="Inter, Cairo, sans-serif" font-weight="bold">SQL</text>
+              </svg>
+              <div class="floating-chip chip-1"><i class="fa-solid fa-database"></i> SQL Server</div>
+              <div class="floating-chip chip-2"><i class="fa-solid fa-code"></i> Delphi</div>
+              <div class="floating-chip chip-3"><i class="fa-brands fa-python"></i> Python</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="scroll"><span></span></a>
+  </header>
+
+  <main>
+    <!-- من أنا -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="about.kicker">نبذة شخصية</span>
+          <h2 class="section-title" data-i18n="about.title">من أنا</h2>
+        </div>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-5">
+            <div class="about-portrait glass-card reveal">
+              <div class="portrait-frame">
+                <img src="majid.jpg" alt="عبد المجيد مخلوفي — Abdelmajid Makhloufi" fetchpriority="high" onerror="this.style.display='none';document.getElementById('fallbackInit').style.display='grid';">
+                <div class="portrait-initial" id="fallbackInit" style="display:none">ع.م</div>
+                <p class="portrait-name" data-i18n="hero.name">عبد المجيد مخلوفي</p>
+                <p class="portrait-role">Software Developer &amp; Database Specialist</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="about-copy reveal">
+              <p data-i18n="about.p1">أنا مطور برمجيات شغوف بالتكنولوجيا والحلول الرقمية، أمتلك خبرة عملية في تطوير تطبيقات سطح المكتب وقواعد البيانات باستخدام Delphi وMicrosoft SQL Server وMySQL.</p>
+              <p data-i18n="about.p2">أهتم بتصميم الأنظمة المعلوماتية وإدارة قواعد البيانات وتطوير الحلول البرمجية التي تساعد المؤسسات على تحسين الكفاءة والإنتاجية.</p>
+              <p data-i18n="about.p3">كما أعمل على تطوير مهاراتي في Python وFastAPI وتقنيات الويب الحديثة والذكاء الاصطناعي والأتمتة.</p>
+              <p data-i18n="about.p4">أسعى دائماً إلى تحويل الأفكار إلى تطبيقات عملية سهلة الاستخدام وذات قيمة حقيقية.</p>
+              <div class="about-tags">
+                <span>Delphi</span><span>SQL Server</span><span>MySQL</span><span>Python</span><span>AI</span><span>Web</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- المهارات -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="skills.kicker">الخبرات التقنية</span>
+          <h2 class="section-title" data-i18n="skills.title">المهارات</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6 col-xl-4">
+            <article class="skill-card glass-card reveal">
+              <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3 data-i18n="skills.lang">لغات البرمجة</h3>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Delphi</li>
+                <li><i class="fa-brands fa-python"></i> Python</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-solid fa-database"></i> SQL</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <article class="skill-card glass-card reveal">
+              <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+              <h3 data-i18n="skills.db">قواعد البيانات</h3>
+              <ul>
+                <li><i class="fa-solid fa-database"></i> Microsoft SQL Server</li>
+                <li><i class="fa-solid fa-database"></i> MySQL</li>
+                <li><i class="fa-solid fa-database"></i> MariaDB</li>
+                <li><i class="fa-solid fa-database"></i> SQLite</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-lg-6 col-xl-4">
+            <article class="skill-card glass-card reveal">
+              <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+              <h3 data-i18n="skills.web">تطوير الويب</h3>
+              <ul>
+                <li><i class="fa-brands fa-html5"></i> HTML5</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
+                <li><i class="fa-brands fa-bootstrap"></i> Bootstrap 5</li>
+                <li><i class="fa-solid fa-bolt"></i> FastAPI</li>
+              </ul>
+            </article>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <article class="skill-card glass-card reveal">
+              <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+              <h3 data-i18n="skills.tools">الأدوات</h3>
+              <div class="chip-grid">
+                <span><i class="fa-brands fa-docker"></i> Docker</span>
+                <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                <span><i class="fa-brands fa-github"></i> GitHub</span>
+                <span><i class="fa-solid fa-eye"></i> OCR</span>
+                <span><i class="fa-solid fa-network-wired"></i> REST API</span>
+                <span><i class="fa-solid fa-code"></i> VS Code</span>
+                <span><i class="fa-solid fa-terminal"></i> OpenCode</span>
+                <span><i class="fa-solid fa-robot"></i> AI Tools</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-12 col-xl-6">
+            <article class="skill-card glass-card reveal">
+              <div class="skill-icon"><i class="fa-solid fa-window-restore"></i></div>
+              <h3 data-i18n="skills.env">بيئات التطوير</h3>
+              <div class="chip-grid">
+                <span>Delphi 7</span><span>Delphi XE3</span><span>RAD Studio 11</span><span>RAD Studio 12</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- المشاريع -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="projects.kicker">أعمال مختارة</span>
+          <h2 class="section-title" data-i18n="projects.title">المشاريع</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card glass-card reveal">
+              <div class="project-cover cover-1"><i class="fa-solid fa-file-image"></i></div>
+              <div class="project-body">
+                <h3 data-i18n="proj1.t">منصة استخراج البيانات بالـ OCR</h3>
+                <p data-i18n="proj1.d">رفع ملفات وصور واستخراج البيانات تلقائياً.</p>
+                <div class="project-tags"><span>Python</span><span>OCR</span><span>AI</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card glass-card reveal">
+              <div class="project-cover cover-2"><i class="fa-solid fa-user-doctor"></i></div>
+              <div class="project-body">
+                <h3 data-i18n="proj2.t">دليل الأطباء</h3>
+                <p data-i18n="proj2.d">منصة للبحث عن الأطباء حسب التخصص والمنطقة.</p>
+                <div class="project-tags"><span>Web</span><span>MySQL</span><span>Bootstrap</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="project-card glass-card reveal">
+              <div class="project-cover cover-3"><i class="fa-solid fa-book-quran"></i></div>
+              <div class="project-body">
+                <h3 data-i18n="proj3.t">تطبيق القرآن الكريم</h3>
+                <p data-i18n="proj3.d">تطبيق ويب حديث للاستماع وقراءة القرآن الكريم.</p>
+                <div class="project-tags"><span>JavaScript</span><span>HTML5</span><span>CSS3</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-6">
+            <article class="project-card glass-card reveal">
+              <div class="project-cover cover-4"><i class="fa-solid fa-database"></i></div>
+              <div class="project-body">
+                <h3 data-i18n="proj4.t">أنظمة قواعد البيانات</h3>
+                <p data-i18n="proj4.d">تطبيقات مكتبية وقواعد بيانات باستخدام Delphi وSQL Server.</p>
+                <div class="project-tags"><span>Delphi</span><span>SQL Server</span><span>Desktop</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-12 col-xl-6">
+            <article class="project-card glass-card reveal">
+              <div class="project-cover cover-5"><i class="fa-solid fa-display"></i></div>
+              <div class="project-body">
+                <h3 data-i18n="proj5.t">مواقع ويب حديثة</h3>
+                <p data-i18n="proj5.d">تصميم وتطوير مواقع احترافية متجاوبة.</p>
+                <div class="project-tags"><span>Bootstrap 5</span><span>FastAPI</span><span>UI/UX</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الخبرة -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="exp.kicker">المسار المهني</span>
+          <h2 class="section-title" data-i18n="exp.title">الخبرة</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp1.t">تطبيقات سطح المكتب بـ Delphi</h3>
+            <p data-i18n="exp1.d">تطوير أنظمة مكتبية متكاملة باستخدام Delphi 7 وXE3 وRAD Studio، مع واجهات عملية وأداء مستقر للمؤسسات.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp2.t">تصميم قواعد البيانات</h3>
+            <p data-i18n="exp2.d">نمذجة البيانات، تطبيع الجداول، بناء العلاقات والفهارس لضمان سلامة البيانات وسرعة الاستعلام.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp3.t">إدارة SQL Server</h3>
+            <p data-i18n="exp3.d">إدارة الخوادم، النسخ الاحتياطي، الإجراءات المخزنة، وتحسين الأداء في بيئات Microsoft SQL Server.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp4.t">تطوير MySQL</h3>
+            <p data-i18n="exp4.d">بناء قواعد بيانات MySQL وMariaDB لتطبيقات الويب والأنظمة الداخلية مع استعلامات محسّنة.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp5.t">تطوير Python</h3>
+            <p data-i18n="exp5.d">كتابة خدمات وأدوات بلغة Python وFastAPI لمعالجة البيانات وربط الأنظمة عبر REST API.</p>
+          </article>
+          <article class="timeline-item glass-card reveal">
+            <div class="timeline-dot"></div>
+            <h3 data-i18n="exp6.t">الذكاء الاصطناعي والأتمتة</h3>
+            <p data-i18n="exp6.d">دمج تقنيات OCR والأتمتة وأدوات الذكاء الاصطناعي لتسريع استخراج البيانات وتقليل العمل اليدوي.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- الخدمات -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="serv.kicker">ماذا أقدم</span>
+          <h2 class="section-title" data-i18n="serv.title">الخدمات</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-window-maximize"></i><h3 data-i18n="serv1">تطوير تطبيقات Delphi</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-diagram-project"></i><h3 data-i18n="serv2">تصميم قواعد البيانات</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-server"></i><h3 data-i18n="serv3">تطوير SQL Server</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-database"></i><h3 data-i18n="serv4">تطوير MySQL</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-brands fa-python"></i><h3 data-i18n="serv5">تطوير تطبيقات Python</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-globe"></i><h3 data-i18n="serv6">تطوير مواقع ويب</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-gears"></i><h3 data-i18n="serv7">أتمتة المهام</h3></article></div>
+          <div class="col-sm-6 col-xl-3"><article class="service-card glass-card reveal"><i class="fa-solid fa-microchip"></i><h3 data-i18n="serv8">دمج الذكاء الاصطناعي</h3></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الإحصائيات -->
+    <section class="section stats-section" id="stats">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3"><div class="stat-card glass-card reveal"><span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span><p data-i18n="st1">سنوات التعلم والخبرة</p></div></div>
+          <div class="col-6 col-lg-3"><div class="stat-card glass-card reveal"><span class="stat-number" data-count="40">0</span><span class="stat-plus">+</span><p data-i18n="st2">المشاريع المنجزة</p></div></div>
+          <div class="col-6 col-lg-3"><div class="stat-card glass-card reveal"><span class="stat-number" data-count="18">0</span><span class="stat-plus">+</span><p data-i18n="st3">التقنيات المستخدمة</p></div></div>
+          <div class="col-6 col-lg-3"><div class="stat-card glass-card reveal"><span class="stat-number" data-count="25">0</span><span class="stat-plus">+</span><p data-i18n="st4">قواعد البيانات المطورة</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- الشهادات -->
+    <section class="section section-alt" id="certificates">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="cert.kicker">الإنجازات العلمية</span>
+          <h2 class="section-title" data-i18n="cert.title">الشهادات</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3"><article class="cert-card glass-card reveal"><div class="cert-badge"><i class="fa-solid fa-award"></i></div><h3 data-i18n="cert1.t">قواعد البيانات المتقدمة</h3><p data-i18n="cert1.d">تصميم وإدارة SQL Server وMySQL</p><span class="cert-placeholder" data-i18n="cert.tag">شهادة</span></article></div>
+          <div class="col-md-6 col-xl-3"><article class="cert-card glass-card reveal"><div class="cert-badge"><i class="fa-solid fa-certificate"></i></div><h3 data-i18n="cert2.t">تطوير تطبيقات Delphi</h3><p data-i18n="cert2.d">RAD Studio وتطبيقات المؤسسات</p><span class="cert-placeholder" data-i18n="cert.tag">شهادة</span></article></div>
+          <div class="col-md-6 col-xl-3"><article class="cert-card glass-card reveal"><div class="cert-badge"><i class="fa-solid fa-medal"></i></div><h3 data-i18n="cert3.t">Python وتطوير الويب</h3><p data-i18n="cert3.d">FastAPI وواجهات برمجية حديثة</p><span class="cert-placeholder" data-i18n="cert.tag">شهادة</span></article></div>
+          <div class="col-md-6 col-xl-3"><article class="cert-card glass-card reveal"><div class="cert-badge"><i class="fa-solid fa-star"></i></div><h3 data-i18n="cert4.t">الذكاء الاصطناعي والأتمتة</h3><p data-i18n="cert4.d">OCR وأدوات الذكاء الاصطناعي</p><span class="cert-placeholder" data-i18n="cert.tag">شهادة</span></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- التواصل -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker" data-i18n="contact.kicker">لنبدأ مشروعاً</span>
+          <h2 class="section-title" data-i18n="contact.title">تواصل معي</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="contact-aside glass-card reveal">
+              <h3 data-i18n="contact.h">يسعدني تواصلك</h3>
+              <p data-i18n="contact.p" style="color:var(--muted)">أرسل رسالتك وسأعود إليك في أقرب وقت لمناقشة مشروعك أو استفسارك التقني.</p>
+              <a class="contact-line" href="mailto:majidinfodelphi@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                majidinfodelphi@gmail.com
+              </a>
+              <!-- ✏️ رقم هاتف العمل: ضع رقمك مكان النص بالأسفل، وضع نفس الرقم بصيغة دولية في href مثل tel:+213XXXXXXXXX -->
+              <a class="contact-line" href="tel:" id="workPhone">
+                <i class="fa-solid fa-phone"></i>
+                <span data-i18n="contact.phone">أضف رقم هاتف العمل هنا</span>
+              </a>
+              <div class="socials">
+                <!-- ✏️ حساب GitHub: ضع رابط حسابك مكان href بالأسفل -->
+                <a id="githubLink" href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <!-- ✏️ صفحة Facebook: ضع رابط صفحتك مكان href بالأسفل -->
+                <a id="facebookLink" href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="mailto:majidinfodelphi@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" data-i18n="form.name">الاسم</label>
+                  <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" data-i18n="form.email">البريد الإلكتروني</label>
+                  <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="col-12">
+                  <label for="subject" data-i18n="form.subject">الموضوع</label>
+                  <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" data-i18n="form.message">الرسالة</label>
+                  <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom w-100">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span data-i18n="form.send">إرسال الرسالة</span>
+                  </button>
+                  <p class="form-status" id="formStatus" role="status"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- التذييل -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="visit-badge" role="status">
+        <i class="fa-solid fa-eye"></i>
+        <span class="visit-number" id="visitCount">0</span>
+        <span data-i18n="visitors">زائر</span>
+      </div>
+      <p class="footer-copy">&copy; <span>Abdelmajid Makhloufi</span></p>
+      <p class="footer-role">Software Developer | Database Specialist</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" type="button" aria-label="back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
